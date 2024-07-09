@@ -114,6 +114,7 @@ header {
   align-items: center;
   overflow: hidden;
   transition: all 0.3s ease-in;
+  margin-top: 50px;
 }
 
 .btn:hover {
