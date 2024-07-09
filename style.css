@@ -318,6 +318,12 @@ header {
   .content h1 {
     font-size: 5rem;
   }
+  .web{
+    display: none;
+  }
+  .mobile{
+    display: flex;
+  }
 }
 
 @media (max-width: 450px) {
@@ -333,10 +339,5 @@ header {
     width: 120px;
     font-size: 0.9rem;
   }
-  .web{
-    display: none;
-  }
-  .mobile{
-    display: flex;
-  }
+ 
 }
