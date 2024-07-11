@@ -12,6 +12,10 @@ body {
   min-height: 100vh;
   padding: 0px 20px;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 header {
@@ -230,6 +234,12 @@ header {
   .page-footer{
     padding: 0px 50px;
   }
+  .web{
+    display: none;
+  }
+  .mobile{
+    display: flex;
+  }
 }
 
 @media (max-width: 700px) {
@@ -319,12 +329,7 @@ header {
   .content h1 {
     font-size: 5rem;
   }
-  .web{
-    display: none;
-  }
-  .mobile{
-    display: flex;
-  }
+ 
 }
 
 @media (max-width: 450px) {
